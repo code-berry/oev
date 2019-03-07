@@ -1,0 +1,201 @@
+<!-- 
+
+/// simon.html
+// created by matt berry
+/ hope the code's easy to read!
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Old East Village - About</title>
+	<!-- Adding our stylesheets, fonts & js -->
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/hover.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Roboto+Mono|Exo:800|PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fontello/css/fontello.css">
+</head>
+<body>
+
+<div id="footer-top">
+	<img src="images/oev.png">
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light navblue">
+	<button class="mr-auto phone-head"><i class="icon icon-phone"></i></button>
+	<button class="ml-auto navbar-toggler toggle-close" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- <span class="navbar-toggler-icon"></span> -->
+		<i id="hider-icon" class="icon icon-menu"></i>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="altnav index-nav navbar-nav ml-auto float-right">
+      	<li class="nav-item">
+			<a href="index.html">Home</a>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="about.html">About Us</a>
+				<a class="dropdown-item" href="history.html">Our History</a>
+				<a class="dropdown-item" href="board.html">Board of Directors</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="assets/areamap.pdf">Area Map</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Businesses</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="businesses.html">Business Contact List</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="map.html">Business Directory</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown active">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="development.html">Development Incentives</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="urban.html">OEV Urban Design</a>
+				<a class="dropdown-item" href="bba.html">Beautiful Building Awards</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="simon.html">Simon Shegelman</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="artcrawl.html"><i>Art Crawl 2019</i></a>
+			</div>
+		</li>
+		<li class="nav-item">
+			<a href="contact.php">Contact</a>
+		</li>
+    </ul>
+    <img src="images/oevn.png" class="classic-logo" alt="">
+  </div>
+</nav>
+
+<!-- <div class="container-fluid" id="bba-bg1">
+	<div class="page page-active" id="page1">
+		<h1 id="test">Hey!</h1>
+	</div>
+	<div class="page" id="page2">
+		<h1>Yo!</h1>
+	</div>
+	<div class="page" id="page3">
+		<h1>Hiya!</h1>
+	</div>
+</div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination justify-content-center" id="bba-pagination">
+    <li class="page-item prev disabled"><a class="page-link" href="#">Previous</a></li>
+    <li id="pagin-i1" class="page-item active">
+    	<a class="page-link" href="#page1">1</a>
+    </li>
+    <li id="pagin-i2" class="page-item">
+    	<a class="page-link" href="#page2">2</a>
+    </li>
+    <li id="pagin-i3" class="page-item">
+    	<a class="page-link" href="#page3">3</a>
+    </li>
+    <li class="page-item next">
+    	<a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+ -->
+
+<div class="fadethis container" id="bba-bg2">
+	<h1>Beautiful Buildings Awards</h1>
+	<p>Urban Regeneration takes place one building at a time.  Beautiful Building Awards acknowledge and thank those property or business owners who embrace their role in the revitalization by investing in the beautification of their buildings.  Those who have received this award have demonstrated their neighbourhood commitment as well as setting a great example for others to do the same.</p>
+	<div id="btnGroup">
+		<select id="address-select">
+			<option value='null'>Choose a building...</option>
+			<option value='0'>Maymo's Fry</option>
+			<option value='1'>Wisdom Tea</option>
+			<option value='2'>Root Cellar</option>
+			<option value='3'>London Clay Art Center</option>
+			<option value='4'>Unique Food Attitudes</option>
+			<option value='5'>Palace Theatre</option>
+			<option value='6'>Unity Project</option>
+			<option value='7'>Freeborn + Company</option>
+			<option value='8'>Love Alchemy</option>
+			<option value='9'>True Taco</option>
+			<option value='10'>Aeolian Hall</option>
+			<option value="11">OEV Dental Specialists</option>
+			<option value="12">Illbury & Goose</option>
+		</select>
+		<button onclick="bbaSearch()" id="bbaSeach" class="hvr-bob button button-inline">Search</button><p id="errormessage">Please select a building.</p>
+	</div>
+
+	<div id="bba-content">
+		<h1 id="bbaAddress">123 Anywhere Street</h1>
+		<h6 id="bbaName">Bob's Furniture Company</h6>
+		<hr>
+		<div class="row" id="bba-row">
+			<div class="col-md"><img src="images/bg03.jpg" class="full-height" id="bba1"></div>
+			<div class="col-md"><img src="images/bg03.jpg" class="full-height" id="bba2"></div>
+		</div>
+	</div>
+
+	<div id="bba-nav">
+		<p id="errorleft">This is the first building on the list!</p>
+		<img src="images/arrow-left.png" id="bba-left" class="hvr-sink bbaNavButton">
+		<img src="images/arrow.png" id="bba-right" class="bbaNavButton hvr-sink">
+		<p id="errorright">You've reached the end of the list!</p>
+	</div>
+	
+	<span id="bbaCurrentEntry">0</span>
+
+</div>
+
+
+<div class="footer">
+	<div class="row" id="footrow">
+		<div class="col-sm">
+			<h3>Navigation</h3>
+			<ul class="inlineul">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="businesses.html">Businesses</a></li>
+				<li><a href="development.html">Development & Incentives</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="col-sm">
+			<h3>Quick Links</h3>
+			<ul class="inlineul">
+				<li><a href="board.html">Board of Directors</a></li>
+				<li><a href="assets/areamap.pdf">Area Map</a></li>
+				<li><a href="urban.html">OEV Urban Design</a></li>
+				<li><a href="bba.html">Beautiful Building Awards</a></li>
+				<li><a href="simon.html">Simon Shegelman's Art</a></li>
+			</ul>
+		</div>
+		<div class="col-sm" id="foot-blog">
+			<h3>Blog</h3>
+			<ul class="inlineul">
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ul>
+		</div>
+	</div>
+	<h6>Copyright 2019 &copy; Old East Village | <a href="https://www.codeberry.ca/">Designed by Codeberry</a></h6>
+	<a href="https://www.codeberry.ca"><img src="images/cblogo.png" class="codeberry"></a>
+</div>
+
+
+<script src="js/bba-sep.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

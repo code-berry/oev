@@ -1,0 +1,159 @@
+<!-- 
+
+/// about.html
+// created by matt berry
+/ hope the code's easy to read!
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Old East Village - About</title>
+	<!-- Adding our stylesheets, fonts & js -->
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/hover.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Roboto+Mono|Exo:800|PT+Sans:400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/fontello/css/fontello.css">
+</head>
+<body>
+
+<div id="footer-top">
+	<img src="images/oev.png">
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light navblue">
+	<button class="mr-auto phone-head"><i class="icon icon-phone"></i></button>
+	<button class="ml-auto navbar-toggler toggle-close" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<!-- <span class="navbar-toggler-icon"></span> -->
+		<i id="hider-icon" class="icon icon-menu"></i>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    	<ul class="altnav index-nav navbar-nav ml-auto float-right">
+      	<li class="nav-item">
+			<a href="index.html">Home</a>
+		</li>
+		<li class="nav-item dropdown active">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="about.html">About Us</a>
+				<a class="dropdown-item" href="history.html">Our History</a>
+				<a class="dropdown-item" href="board.html">Board of Directors</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="assets/areamap.pdf">Area Map</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Businesses</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="businesses.html">Business Contact List</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="map.html">Business Directory</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Support</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="development.html">Development Incentives</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="urban.html">OEV Urban Design</a>
+				<a class="dropdown-item" href="bba.html">Beautiful Building Awards</a>
+			</div>
+		</li>
+		<li class="nav-item dropdown">
+			<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="simon.html">Simon Shegelman</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="artcrawl.html"><i>Art Crawl 2019</i></a>
+			</div>
+		</li>
+		<li class="nav-item">
+			<a href="contact.php">Contact</a>
+		</li>
+    </ul>
+    <img src="images/oevn.png" class="classic-logo" alt="">
+  </div>
+</nav>
+
+<div id="about-bg1">
+	<div class="container fullflex">
+		<div class="innerbox border border-info fadethis" id="about-inner1">
+			<h1 class="fadethis">About Us</h1>
+			<hr class="fadethis">
+			<p class="fadethis"><b>Our Mandate:</b> Create a vibrant, diverse, and sustainable commercial corridor, at the heart of an inclusive community, where more people live, work, shop, play and produce.<br><br>
+			The Old East Village BIA is proud to represent the large variety of businesses and property owners that is the Old East Village Commercial Corridor. We work with small and large scale developments as well as a variety of business models ranging from sole proprietorships, corporations to worker owned co-operatives.  We encourage all current and potential Old East Village Businesses to contact us at your convenience to further discuss BIA assistance.
+			</p>
+			<div class="row" id="ab-gallery-row">
+				<div class="web-gall col-lg-10" id="gall-main">
+					<div id="alt-container">
+						<p>Need a caption for this one!</p>
+					</div>
+				</div>
+				<div class="web-gall col-lg-2" id="gall-select">
+					<img src="images/slider1.jpg" class="web-gall gall-min" alt="Lilley's Corner">
+					<img src="images/slider2.jpg" class="web-gall gall-min" alt="Skateboarding in OEV">
+					<img src="images/slider3.jpg" class="web-gall gall-min" alt="#">
+					<img src="images/slider4.jpg" class="web-gall gall-min" alt="#">
+					<img src="images/main.jpg" class="web-gall gall-min" alt="Old East Village">
+				</div>
+				<div class="mob-gall col-lg-8" id="gall-main2"></div>
+				<div class="mob-gall col-lg-4 viewport" id="gall-select">
+					<img src="images/slider1.jpg" class="mob-gall gall-min" alt="Lilley's Corner">
+					<img src="images/slider2.jpg" class="mob-gall gall-min" alt="Skateboarding in OEV">
+					<img src="images/slider3.jpg" class="mob-gall gall-min" alt="#">
+					<img src="images/slider4.jpg" class="mob-gall gall-min" alt="#">
+					<img src="images/main.jpg" class="mob-gall gall-min" alt="Old East Village">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer">
+	<div class="row" id="footrow">
+		<div class="col-sm">
+			<h3>Navigation</h3>
+			<ul class="inlineul">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="businesses.html">Businesses</a></li>
+				<li><a href="development.html">Development & Incentives</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
+			</ul>
+		</div>
+		<div class="col-sm">
+			<h3>Quick Links</h3>
+			<ul class="inlineul">
+				<li><a href="board.html">Board of Directors</a></li>
+				<li><a href="assets/areamap.pdf">Area Map</a></li>
+				<li><a href="urban.html">OEV Urban Design</a></li>
+				<li><a href="bba.html">Beautiful Building Awards</a></li>
+				<li><a href="simon.html">Simon Shegelman's Art</a></li>
+			</ul>
+		</div>
+		<div class="col-sm" id="foot-blog">
+			<h3>Blog</h3>
+			<ul class="inlineul">
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ul>
+		</div>
+	</div>
+	<h6>Copyright 2019 &copy; Old East Village | <a href="https://www.codeberry.ca/">Designed by Codeberry</a></h6>
+	<a href="https://www.codeberry.ca"><img src="images/cblogo.png" class="codeberry"></a>
+</div>
+
+
+<script src="js/main.js"></script>
+<script src="js/about.js"></script>
+</body>
+</html>
